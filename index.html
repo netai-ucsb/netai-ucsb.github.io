@@ -12,18 +12,20 @@
     <title>ML For Networked Systems :: CS 293N: ML for Networked Systems</title>
 
     
-    <link href="/css/nucleus.css?1578434898" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1578434898" rel="stylesheet">
-    <link href="/css/hybrid.css?1578434898" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1578434898" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1578434898" rel="stylesheet">
-    <link href="/css/auto-complete.css?1578434898" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1578434898" rel="stylesheet">
-    <link href="/css/theme.css?1578434898" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1578434898" rel="stylesheet">
+    <link href="/css/nucleus.css?1578440576" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1578440576" rel="stylesheet">
+    <link href="/css/hybrid.css?1578440576" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1578440576" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1578440576" rel="stylesheet">
+    <link href="/css/auto-complete.css?1578440576" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1578440576" rel="stylesheet">
+    <link href="/css/theme.css?1578440576" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1578440576" rel="stylesheet">
+    
+      <link href="/css/theme-blue.css?1578440576" rel="stylesheet">
     
 
-    <script src="/js/jquery-3.3.1.min.js?1578434898"></script>
+    <script src="/js/jquery-3.3.1.min.js?1578440576"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +71,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1578434898"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1578434898"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1578440576"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1578440576"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/netai-ucsb.github.io\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1578434898"></script>
+<script type="text/javascript" src="/js/search.js?1578440576"></script>
 
     
   </div>
@@ -177,27 +179,31 @@
 
 <h1 id="ml-for-networked-systems">ML for Networked Systems</h1>
 
-<h2 id="course-objective">Course Objective</h2>
+<h2 id="overview">Overview</h2>
+
+<h3 id="course-objective">Course Objective</h3>
 
 <p>In recent years, we have witnessed the widespread usage of ML tools for various classification, detection, and control problems. More recently, we have witnessed the use of ML for various networking problems as well. However, operationalizing ML solutions for networked systems is more nuanced than simply calibrating existing tools, developed for other domains (image classification, NLP, etc.). More in-depth exploration to develop flexible, scalable, and generalizable ML-based networked systems. In this course, we will cover recent research, published at top networked systems (USENIX NSDI, ACM SIGCOMM) and ML conferences (NeurIPS, ICML, etc.), that developed new ML tools/techniques for networked systems. In the process, we will learn how to identify problems that can (or cannot) benefit from ML, decide which tool/algorithm to use, and how to do interdisciplinary research covering networking, ML, and systems.</p>
 
-<h2 id="expected-background">Expected Background</h2>
+<h3 id="expected-background">Expected Background</h3>
 
 <p>There are no official prerequisites; however, a basic familiarity with
 networking, ML, and distributed systems concepts will be very helpful.</p>
 
-<h2 id="classes">Classes</h2>
+<h2 id="logistics">Logistics</h2>
 
-<p><strong>Location</strong>: Phelps 3526
-<strong>Day and time</strong>: Tuesday and Thursday 5-6:50 PM</p>
+<h3 id="classes">Classes</h3>
 
-<h2 id="teaching-staff">Teaching Staff</h2>
+<p><strong>Location</strong>: Phelps 3526 <br>
+<strong>Time</strong>:  5-6:50 PM, Tuesday and Thursday</p>
 
-<p><strong>Instructor</strong>: Arpit Gupta (arpitgupta@cs.ucsb.edu).</p>
+<h3 id="teaching-staff">Teaching Staff</h3>
+
+<p><strong>Instructor</strong>: <a href="https://sites.cs.ucsb.edu/~arpitgupta">Arpit Gupta</a> (arpitgupta@cs.ucsb.edu).</p>
 
 <p>My office is 1117 Harold Frank Hall (HFH).</p>
 
-<h2 id="communications">Communications</h2>
+<h3 id="communications">Communications</h3>
 
 <p><strong>Course website</strong>: <a href="https://netai-ucsb.github.io">https://netai-ucsb.github.io</a>. All course materials will be posted on the course website, and students will be expected to provide materials to add to this site.</p>
 
@@ -232,7 +238,7 @@ networking, ML, and distributed systems concepts will be very helpful.</p>
 <tr>
 <td>Jan 14</td>
 <td>Software-defined networking (SDN)</td>
-<td><a href="https://dl.acm.org/doi/pdf/10.1145/2602204.2602219">Road to SDN</a> <br> <a href="http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf">OpenFlow</a> <br> <a href="http://yuba.stanford.edu/~nickm/papers/v44n3k2-bosshartA.pdf">P4</a></td>
+<td><a href="https://dl.acm.org/doi/pdf/10.1145/2602204.2602219">Road to SDN</a> <br> <a href="http://ccr.sigcomm.org/online/files/p69-v38n2n-mckeown.pdf">OpenFlow</a> <br> <a href="http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p253.pdf">Mininet</a></td>
 </tr>
 
 <tr>
@@ -250,7 +256,7 @@ networking, ML, and distributed systems concepts will be very helpful.</p>
 <tr>
 <td>Jan 23</td>
 <td>Data analysis</td>
-<td><a href="https://p4.org/assets/INT-current-spec.pdf">INT</a>, <a href="https://sites.cs.ucsb.edu/~arpitgupta/pdfs/sonata.pdf">Sonata</a> <br> <a href="https://cs.nyu.edu/~anirudh/marple.pdf">Marple</a></td>
+<td><a href="http://yuba.stanford.edu/~nickm/papers/v44n3k2-bosshartA.pdf">P4</a> <br> <a href="https://p4.org/assets/INT-current-spec.pdf">INT</a> <br> <a href="https://sites.cs.ucsb.edu/~arpitgupta/pdfs/sonata.pdf">Sonata</a></td>
 </tr>
 
 <tr>
@@ -409,6 +415,11 @@ networking, ML, and distributed systems concepts will be very helpful.</p>
 
 	 
 	 
+		
+		
+			<a class="nav nav-next" href="/classes/" title="Classes" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
     </div>
 
     </section>
@@ -416,19 +427,19 @@ networking, ML, and distributed systems concepts will be very helpful.</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1578434898"></script>
-    <script src="/js/perfect-scrollbar.min.js?1578434898"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1578434898"></script>
-    <script src="/js/jquery.sticky.js?1578434898"></script>
-    <script src="/js/featherlight.min.js?1578434898"></script>
-    <script src="/js/highlight.pack.js?1578434898"></script>
+    <script src="/js/clipboard.min.js?1578440576"></script>
+    <script src="/js/perfect-scrollbar.min.js?1578440576"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1578440576"></script>
+    <script src="/js/jquery.sticky.js?1578440576"></script>
+    <script src="/js/featherlight.min.js?1578440576"></script>
+    <script src="/js/highlight.pack.js?1578440576"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1578434898"></script>
-    <script src="/js/learn.js?1578434898"></script>
-    <script src="/js/hugo-learn.js?1578434898"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1578440576"></script>
+    <script src="/js/learn.js?1578440576"></script>
+    <script src="/js/hugo-learn.js?1578440576"></script>
 
-    <link href="/mermaid/mermaid.css?1578434898" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1578434898"></script>
+    <link href="/mermaid/mermaid.css?1578440576" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1578440576"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
