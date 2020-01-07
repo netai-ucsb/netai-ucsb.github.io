@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:netai-ucsb/netai-ucsb.github.io.git
+	branch = master
