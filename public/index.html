@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="https://www.ucsb.edu/themes/ucsb/favicon.ico" type="image/png">
+
+    <title>ML For Networked Systems :: My New Hugo Site</title>
+
+    
+    <link href="/css/nucleus.css?1578374170" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1578374170" rel="stylesheet">
+    <link href="/css/hybrid.css?1578374170" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1578374170" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1578374170" rel="stylesheet">
+    <link href="/css/auto-complete.css?1578374170" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1578374170" rel="stylesheet">
+    <link href="/css/theme.css?1578374170" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1578374170" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1578374170"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://example.org/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a href="http://example.org/"><b>CS 293 N</b></a>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1578374170"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1578374170"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/example.org\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1578374170"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/classes/" title="Classes" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/classes/">
+          <b></b>Classes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/classes/class1/" title="Class 1: Introduction" class="dd-item ">
+        <a href="/classes/class1/">
+        Class 1: Introduction
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+ 
+
+
+<h1 id="overview">Overview</h1>
+
+<h2 id="course-objective">Course Objective</h2>
+
+<p>In recent years, we have witnessed the widespread usage of ML tools for various classification, detection, and control problems. More recently, we have witnessed the use of ML for various networking problems as well. However, operationalizing ML solutions for networked systems is more nuanced than simply calibrating existing tools, developed for other domains (image classification, NLP, etc.). More in-depth exploration to develop flexible, scalable, and generalizable ML-based networked systems. In this course, we will cover recent research, published at top networked systems (USENIX NSDI, ACM SIGCOMM) and ML conferences (NeurIPS, ICML, etc.), that developed new ML tools/techniques for networked systems. In the process, we will learn how to identify problems that can (or cannot) benefit from ML, decide which tool/algorithm to use, and how to do interdisciplinary research covering networking, ML, and systems.</p>
+
+<h2 id="expected-background">Expected Background</h2>
+
+<p>There are no official prerequisites; however, a basic familiarity with
+networking, ML, and distributed systems concepts will be very helpful.</p>
+
+<h2 id="teaching-staff">Teaching Staff</h2>
+
+<p>Instructor: Arpit Gupta (arpitgupta@cs.ucsb.edu). My office is 1117 Harold Frank Hall (HFH).</p>
+
+<h2 id="communications">Communications</h2>
+
+<p><em>Course website</em>: <a href="https://netai-ucsb.github.io">https://netai-ucsb.github.io</a>. All course materials will be posted on the course website, and students will be expected to provide materials to add to this site.</p>
+
+<p><em>Slack</em>: <a href="https://netai-ucsb.slack.com">https://netai-ucsb.slack.com</a>. We will use a slack group for class communications. You can join using any @ucsb.edu email address. You can also create slack channels for your team communications.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p><strong>This schedule is tentative. Please refer to this page to get the most recent version of the schedule.</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topics</th>
+<th>Readings</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Jan 7th</td>
+<td>Intro + logistics + Self-driving networks</td>
+<td><a href="https://www.cs.princeton.edu/~jrex/papers/self-driving-networks18.pdf">Self-driving networks</a></td>
+</tr>
+
+<tr>
+<td>Jan 9th</td>
+<td>Self-driving networks (contd.)</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Jan 14</td>
+<td>Software-defined networking (SDN)</td>
+<td>Road to SDN, OpenFlow/P4</td>
+</tr>
+
+<tr>
+<td>Jan 16</td>
+<td>SDN + Interdomain routing</td>
+<td>SDX, iSDX</td>
+</tr>
+
+<tr>
+<td>Jan 21</td>
+<td>Data collection</td>
+<td>Odin, BISMark (future: Beegol)</td>
+</tr>
+
+<tr>
+<td>Jan 23</td>
+<td>Data analysis</td>
+<td>INT, Sonata, Marple</td>
+</tr>
+
+<tr>
+<td>Jan 28</td>
+<td>Data analysis</td>
+<td>NetMicroscope, Requet</td>
+</tr>
+
+<tr>
+<td>Jan 30</td>
+<td>Testbeds</td>
+<td>Stanford SDN deployment, P4 Campus</td>
+</tr>
+
+<tr>
+<td>Feb 4</td>
+<td>Testbeds</td>
+<td>Pantheon, Puffer</td>
+</tr>
+
+<tr>
+<td>Feb 6</td>
+<td>Project proposals</td>
+<td></td>
+</tr>
+
+<tr>
+<td>Feb 11</td>
+<td>AI/ML for networks (router)</td>
+<td>Neural packet classification (<em>), Learning to Route (</em>)</td>
+</tr>
+
+<tr>
+<td>Feb 13</td>
+<td>AI/ML for networks (router)</td>
+<td>Outside the Closed World: On Using Machine Learning For Network Intrusion Detection</td>
+</tr>
+
+<tr>
+<td>Feb 18</td>
+<td>AI/ML for networks (hosts)</td>
+<td>TCP ex Machina: Computer-Generated Congestion Control (*)</td>
+</tr>
+
+<tr>
+<td>Feb 20</td>
+<td>AI/ML for networks (hosts)</td>
+<td>PCC Vivace: Online-Learning Congestion Control (*)</td>
+</tr>
+
+<tr>
+<td>Feb 25</td>
+<td>AI/ML for networks (hosts)</td>
+<td>A Deep Reinforcement Learning Perspective on Internet Congestion Control (*)</td>
+</tr>
+
+<tr>
+<td>Feb 27</td>
+<td>AI/ML for networks (apps)</td>
+<td>A Control-Theoretic Approach for Dynamic Adaptive Video Streaming over HTTP</td>
+</tr>
+
+<tr>
+<td>March 3</td>
+<td>AI/ML for networks (apps)</td>
+<td>Neural Adaptive Video Streaming with Pensieve (*)</td>
+</tr>
+
+<tr>
+<td>March 5</td>
+<td>AI/ML for networks (distributed)</td>
+<td>CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics</td>
+</tr>
+
+<tr>
+<td>March 10</td>
+<td>AI/ML for networks (distributed)</td>
+<td>Harvesting Randomness to Optimize Distributed Systems, Answering what-if deployment and configuration questions with wise</td>
+</tr>
+
+<tr>
+<td>March 12</td>
+<td>Final project presentations</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="additional-resources">Additional Resources</h2>
+	
+  
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1578374170"></script>
+    <script src="/js/perfect-scrollbar.min.js?1578374170"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1578374170"></script>
+    <script src="/js/jquery.sticky.js?1578374170"></script>
+    <script src="/js/featherlight.min.js?1578374170"></script>
+    <script src="/js/highlight.pack.js?1578374170"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1578374170"></script>
+    <script src="/js/learn.js?1578374170"></script>
+    <script src="/js/hugo-learn.js?1578374170"></script>
+
+    <link href="/mermaid/mermaid.css?1578374170" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1578374170"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
