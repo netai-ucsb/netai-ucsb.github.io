@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Classes on My New Hugo Site</title>
-    <link>http://example.org/classes/</link>
-    <description>Recent content in Classes on My New Hugo Site</description>
+    <title>Classes on CS 293N: ML for Networked Systems</title>
+    <link>https://netai-ucsb.github.io/classes/</link>
+    <description>Recent content in Classes on CS 293N: ML for Networked Systems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jan 2020 15:55:58 -0800</lastBuildDate>
     
-	<atom:link href="http://example.org/classes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://netai-ucsb.github.io/classes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Class 1: Introduction</title>
-      <link>http://example.org/classes/class1/</link>
+      <link>https://netai-ucsb.github.io/classes/class1/</link>
       <pubDate>Mon, 06 Jan 2020 16:07:58 -0800</pubDate>
       
-      <guid>http://example.org/classes/class1/</guid>
+      <guid>https://netai-ucsb.github.io/classes/class1/</guid>
       <description>Welcome Happy New Year!
 Welcome to this special-topics course, AI/ML for Networked Systems.
 Introductions In today&amp;rsquo;s class, we will spend some time learning more about each other. Please share:
