@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Class 3: Road to SDN</title>
+      <link>https://netai-ucsb.github.io/classes/class3/</link>
+      <pubDate>Tue, 14 Jan 2020 14:09:35 -0800</pubDate>
+      
+      <guid>https://netai-ucsb.github.io/classes/class3/</guid>
+      <description>Agenda In today&amp;rsquo;s class, we will discuss the paper, The Road to SDN: An Intellectual History of Programmable Networks.
+First, we will go through the list of questions from your reading assignment. I will then briefly describe Mininet, and how to use it for your research projects. I will then provide an overview of some of the recent trends in the area of software-defined networking.
+The key learning objective for today’s class is to understand the intellectual history of SDN, how it enables network automation (which in turn enables self-driving networks), and get exposed to some of the latest trends in SDN.</description>
+    </item>
+    
+    <item>
       <title>Class 2: Self-driving Networks</title>
       <link>https://netai-ucsb.github.io/classes/class2/</link>
       <pubDate>Thu, 09 Jan 2020 11:09:58 -0800</pubDate>
