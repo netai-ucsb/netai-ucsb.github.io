@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Class 7: QoE Estimation</title>
+      <link>https://netai-ucsb.github.io/classes/class7/</link>
+      <pubDate>Mon, 27 Jan 2020 10:01:03 -0800</pubDate>
+      
+      <guid>https://netai-ucsb.github.io/classes/class7/</guid>
+      <description>Agenda In today&amp;rsquo;s class, we will discuss the paper, Requet: Real-Time QoE Detection for Encrypted YouTube Traffic.
+First, we will go through the list of questions from your reading assignment. More specifically, we will learn about various stages of video streaming sessions and related QoE metrics. We will discuss the motivation and key insights from the paper before talking about its data-generation techniques, choice of machine learning model, and results.</description>
+    </item>
+    
+    <item>
       <title>Class 3: Road to SDN</title>
       <link>https://netai-ucsb.github.io/classes/class3/</link>
       <pubDate>Tue, 14 Jan 2020 14:09:35 -0800</pubDate>

@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://www.ucsb.edu/themes/ucsb/favicon.ico" type="image/png">
 
-    <title>Class 3: Road to SDN :: CS 293N: ML for Networked Systems</title>
+    <title>Class 7: QoE Estimation :: CS 293N: ML for Networked Systems</title>
 
     
     <link href="/css/nucleus.css?1580148933" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/classes/class3/">
+  <body class="" data-url="/classes/class7/">
     <nav id="sidebar" class="">
 
 
@@ -119,7 +119,7 @@
  
   
     
-      <li data-nav-id="/classes/class7/" title="Class 7: QoE Estimation" class="dd-item ">
+      <li data-nav-id="/classes/class7/" title="Class 7: QoE Estimation" class="dd-item active">
         <a href="/classes/class7/">
         Class 7: QoE Estimation
         
@@ -138,7 +138,7 @@
  
   
     
-      <li data-nav-id="/classes/class3/" title="Class 3: Road to SDN" class="dd-item active">
+      <li data-nav-id="/classes/class3/" title="Class 3: Road to SDN" class="dd-item ">
         <a href="/classes/class3/">
         Class 3: Road to SDN
         
@@ -233,7 +233,7 @@
                   <span class="links">
                  
                  
-                   Class 3: Road to SDN 
+                   Class 7: QoE Estimation 
                  
                   </span>
                 </div>
@@ -245,7 +245,6 @@
 <li>
 <ul>
 <li><a href="#agenda">Agenda</a></li>
-<li><a href="#discussion-summary">Discussion Summary</a></li>
 <li><a href="#next-class">Next Class</a></li>
 </ul></li>
 </ul>
@@ -265,7 +264,7 @@
           
             <h1>
               
-              Class 3: Road to SDN
+              Class 7: QoE Estimation
             </h1>
           
 
@@ -277,21 +276,21 @@
 
 <h2 id="agenda">Agenda</h2>
 
-<p>In today&rsquo;s class, we will discuss the paper, <a href="https://www.cs.princeton.edu/courses/archive/fall13/cos597E/papers/sdnhistory.pdf">The Road to SDN: An Intellectual History of Programmable Networks</a>.</p>
+<p>In today&rsquo;s class, we will discuss the paper, <a href="https://wimnet.ee.columbia.edu/wp-content/uploads/2019/02/MMsys19_Requet.pdf">Requet: Real-Time QoE Detection for Encrypted YouTube Traffic</a>.</p>
 
-<p>First, we will go through the list of questions from your reading assignment. I will then briefly describe <a href="https://github.com/mininet/mininet/wiki/Introduction-to-Mininet">Mininet</a>, and how to use it for your research projects. I will then provide an overview of some of the recent trends in the area of software-defined networking.</p>
+<p>First, we will go through the list of questions from your reading assignment. More specifically, we will learn about various stages of video streaming sessions and related QoE metrics. We will discuss the motivation and key insights from the paper before talking about its data-generation techniques, choice of machine learning model, and results.</p>
 
-<p>The key learning objective for today’s class is to understand the intellectual history of SDN, how it enables network automation (which in turn enables self-driving networks), and get exposed to some of the latest trends in SDN.</p>
+<p>The learning objective of today&rsquo;s class is to understand the broader research area of QoE estimation for encrypted services and how to apply machine learning tools over network data for this task. Though in this lecture, we focus on QoE estimation for video streaming services, we will discuss how these learnings can be generalized to estimate Quality of experiences for other services.</p>
 
-<h2 id="discussion-summary">Discussion Summary</h2>
-
-<p>TBD.
-<strong>You will receive bonus points for scribing/blogging today&rsquo;s class.</strong></p>
+<p><strong>Note:</strong>
+Swaroop and Sabrina will blog the discussion summary for this class.</p>
 
 <h2 id="next-class">Next Class</h2>
 
-<p>In next class, we will discuss the paper, <a href="https://www.microsoft.com/en-us/research/uploads/prod/2018/02/NSDI_2018___Odin.pdf">Odin: Microsoft’s Scalable Fault-Tolerant CDN Measurement System</a>.
-Please fill out the <a href="https://forms.gle/He6kmn8yYkLHmNBq9">reading assignment form</a> before the class.</p>
+<p>In next class, we will discuss the paper, <a href="https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf">Neural Adaptive Video Streaming with Pensieve</a>. Please fill out the <a href="https://forms.gle/sPNWxySGwBdF1bxUA">reading assignment form</a> before the class.</p>
+
+<p><strong>Note:</strong>
+Sanjay and Roman will write the blog summarizing the next class&rsquo; discussions.</p>
 
 
 <footer class=" footline" >
@@ -344,25 +343,6 @@ Please fill out the <a href="https://forms.gle/He6kmn8yYkLHmNBq9">reading assign
             
                 
                     
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -382,6 +362,22 @@ Please fill out the <a href="https://forms.gle/He6kmn8yYkLHmNBq9">reading assign
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -422,10 +418,10 @@ Please fill out the <a href="https://forms.gle/He6kmn8yYkLHmNBq9">reading assign
 	 
 	 
 		
-			<a class="nav nav-prev" href="/classes/class7/" title="Class 7: QoE Estimation"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/classes/" title="Classes"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/classes/class2/" title="Class 2: Self-driving Networks" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/classes/class3/" title="Class 3: Road to SDN" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
